@@ -514,7 +514,7 @@ a:hover {
 }
 .last-container {
   color: thistle;
-  height: 4vh;
+  height: 5vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.801);
   display: flex;
