@@ -52,7 +52,8 @@
   background-color: #242321;
 }
 .bg-white {
-  background-color: #ffffffb5 !important;
+  /* background-color: #ffffffb5 !important; */
+  background-color: #ffffffcf !important;
 }
 
 .animate__animated.animate__fadeOut {
@@ -105,8 +106,8 @@
   outline: none;
 }
 .btn-open img {
-  height: 40%;
-  width: 40%;
+  height: 35%;
+  width: 35%;
   /* padding-bottom: 1rem; */
 }
 .hide {
@@ -386,7 +387,9 @@ button:hover {
   align-items: center;
   height: 100vh;
   max-width: 100%;
-  background-image: linear-gradient(rgb(5 7 12 / 15%), rgb(5 7 12 / 51%)),
+  /* background-image: linear-gradient(rgb(5 7 12 / 15%), rgb(5 7 12 / 51%)),
+    url("./assets/img/pareja4.jpg"); */
+  background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 22%)),
     url("./assets/img/pareja4.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -395,6 +398,9 @@ button:hover {
 }
 .window-copy {
   background-color: #ffffffb5;
+  /* background-color: #ffffffcf; */
+  text-shadow: black 0.1em 0.1em 1em;
+
   width: 90%;
   height: max-content;
   margin: 0;
@@ -449,7 +455,9 @@ a:hover {
   margin: 2rem 0;
   height: 80%;
   width: 100%;
-  background-color: rgba(245, 245, 245, 0.568);
+  /* background-color: rgba(245, 245, 245, 0.568); */
+  background-color: #ffffffcf !important;
+  border-radius: 10px;
 }
 .logo-liverpool {
   width: 150px;
@@ -460,12 +468,13 @@ a:hover {
 .bg-gray {
   background-color: rgba(189, 188, 188, 0.29);
 }
-
 /* last window back */
 .last-window-back {
   height: 100vh;
   max-width: 100%;
-  background-image: linear-gradient(rgb(5 7 12 / 15%), rgb(5 7 12 / 51%)),
+  /* background-image: linear-gradient(rgb(5 7 12 / 15%), rgb(5 7 12 / 51%)),
+    url("./assets/img/pareja15.jpg"); */
+  background-image: linear-gradient(rgb(5 7 12 / 0%), rgb(5 7 12 / 43%)),
     url("./assets/img/pareja15.jpg");
   background-size: cover;
   -webkit-background-size: cover; /* Para Safari y Chrome antiguos */
@@ -508,8 +517,8 @@ a:hover {
     font-size: 3.5rem;
   }
   .btn-open img {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
   }
   .nuestro-inicio img {
     width: 450px;
@@ -541,8 +550,8 @@ a:hover {
     font-size: 5.5rem;
   }
   .btn-open img {
-    height: 55%;
-    width: 55%;
+    height: 45%;
+    width: 45%;
   }
   .display-4 {
     font-size: 3.6rem;
@@ -606,8 +615,8 @@ a:hover {
     border-style: none;
   }
   .btn-open img {
-    height: 70%;
-    width: 70%;
+    height: 60%;
+    width: 60%;
   }
   .card {
     height: 45vh;
