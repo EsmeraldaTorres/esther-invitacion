@@ -463,8 +463,8 @@ a:hover {
   margin: 2rem 0;
   height: 80%;
   width: 100%;
-  /* background-color: rgba(245, 245, 245, 0.568); */
-  background-color: #ffffffcf !important;
+  background-color: rgba(245, 245, 245, 0.568);
+  /* background-color: #ffffffcf !important; */
   border-radius: 10px;
 }
 .logo-liverpool {
