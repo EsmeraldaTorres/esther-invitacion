@@ -440,7 +440,7 @@ button:hover {
   max-width: 100%;
   background-image: url("./assets/img/pareja1.jpg");
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-position: center;
 }
