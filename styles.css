@@ -141,6 +141,20 @@
   background-repeat: no-repeat;
   background-position: top;
 }
+.dinamic-galery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 2rem 2rem;
+  background-image: linear-gradient(rgb(5 7 12 / 57%), rgb(5 7 12 / 62%)),
+    url("./assets/img/galeria-dinamica.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .name {
   width: 96vw;
   padding-right: 0;
@@ -168,6 +182,9 @@
   border-radius: 50%;
   justify-content: center;
   z-index: 9;
+}
+.text-underline {
+  text-decoration: underline;
 }
 .player-btn:hover {
   cursor: pointer;
@@ -217,8 +234,14 @@
 .decoration {
   width: 200px;
 }
+.letter-s-1px {
+  letter-spacing: 1px;
+}
 .display-4 {
   font-size: 3rem;
+}
+.f-bold {
+  font-weight: bold;
 }
 .display-6 {
   font-size: 1.2rem;
